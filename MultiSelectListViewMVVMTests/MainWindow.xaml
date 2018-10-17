@@ -1,0 +1,44 @@
+﻿<Window x:Class="MultiSelectListViewMVVMTests.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiSelectListViewMVVMTests"
+        xmlns:updownlistmvvm="clr-namespace:MultiSelectListViewMVVM;assembly=MultiSelectListViewMVVM"
+        mc:Ignorable="d"
+        Title="Tests for WPF Control for Moving Up/Down Multiple Selected Items in ListView" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Content="WPF"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontWeight="Bold"
+               FontSize="16"
+               Margin="10,5,60,5"/>
+        <updownlistmvvm:UpDownListView x:Name="upDownListViewMVVM"
+               Grid.Row="1" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Stretch"
+               Width="250"
+               Margin="10,5,10,5"/>
+        <Label Grid.Row="2"
+               Content="Listed Items from Model"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontWeight="Bold" FontSize="16"
+               Margin="10,5,60,5"/>
+        <ListBox x:Name="listBoxForMVVM"
+               Grid.Row="3"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Stretch"
+               Width="190"
+               Margin="10,5,60,5"
+               ItemsSource="{Binding UpDownListModel.ListItems, Mode=TwoWay}"/>
+    </Grid>
+</Window>

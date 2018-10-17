@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSelectListViewMVVM", "MultiSelectListViewMVVM\MultiSelectListViewMVVM.csproj", "{0A68A8E6-8973-4D18-918D-13AEE27D215A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSelectListViewMVVMTests", "MultiSelectListViewMVVMTests\MultiSelectListViewMVVMTests.csproj", "{53AB791B-2D46-4F36-8244-C1ED28A3F8D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A68A8E6-8973-4D18-918D-13AEE27D215A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A68A8E6-8973-4D18-918D-13AEE27D215A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A68A8E6-8973-4D18-918D-13AEE27D215A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A68A8E6-8973-4D18-918D-13AEE27D215A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AB791B-2D46-4F36-8244-C1ED28A3F8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AB791B-2D46-4F36-8244-C1ED28A3F8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AB791B-2D46-4F36-8244-C1ED28A3F8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AB791B-2D46-4F36-8244-C1ED28A3F8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4F7707B-F58E-4B92-88F1-073CCF5B6E78}
+	EndGlobalSection
+EndGlobal
